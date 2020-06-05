@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>Aboutus</title>
+        <link rel="stylesheet" type="text/css" href="a.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+    margin-top: 150px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+</style>
+    </head>
+    <body>
+      <div id="wrapper">
+<div id="header">
+<div id="subheader">
+<div class="container">
+<p></p>
+
+</div>
+</div>
+<div id="main-header">
+<div id="logo">
+<img src="logo.jpg">
+</div>
+    <div id="search">
+    <form action="">
+       
+        <input class="search-area" name="text" placeholder="search products">
+        <input class="search-btn" type="submit" name="submit" value="SEARCH">
+        </form>
+    </div>
+    <div id="user-menu">
+    <li><a href="service.html">Our Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </div>
+    </div>
+          </div>
+    </div>
+        <div id="navigation">
+    <nav>
+        <a href="vis.html"></a>
+        <a href="home.html">Home</a>
+        <a href="order.html">Order products</a>
+        <a href="marymo.html">Marymo Products</a>
+        </nav>
+        </div>
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/home%20(1).jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/home%20(2).jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/home%20(3).jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<div align="center">
+<div>
+  <h2>ABOUT MARYMO</h2>
+  <div>
+    <p>Mustapha Monisola Mariam the <b>CEO</b> of <b><i>MARYMO BUSINESS VENTURES</i></b> is a fresh graduate of Criminology and Security from University of Ilorin<br> 
+who was posted to Kano state for National Youth Conference in 2018. During the final year of course of study (400l) in Unilorin.<br> 
+She started making and selling liquid soap which she learnt the skill from her mother who is Mustapha Motunrayo.<br>
+She sold as a wholesaler and retailer to canteens, restaurant and also for family. </p>
+
+<p>During her 300l in University of Ilorin, She joined an non-governmental organization called GATE Initiative and in which<br> 
+she is the Welfare Secretary of the organization and this NGO brought out the skill in her. <br>
+She began to discover her talent which is to give solution to people’s welfares</p>
+
+<h2 align="center">SUMMARY OF LIQUID SOAP IN NIGERIA</h2>
+
+<p>Liquid soap is fast replacing detergents, bars and block soaps in most kitchens, car wash garages, toilets and laundry <br>
+halls generally. This is so because over time, it has been proven that liquid soap is more effective when used to wash dishes,<br> 
+cars and even hands and this is no wonder that the sale has continued to reach the zenith.<br>
+The aesthetics of this product is irresistible, its transparent appearance sparkling colour mixture, packaging and branding is <br>
+uncommon compared to peers.<br>
+The raw materials are sourced locally and includes sulphonic acid, caustic soda, soda ash, fragrant and colorant. Standard and <br>
+quality raw materials/equipment is used to ensure the quality of the finished product.<br>
+The liquid soap have advantages over other products in the market in that it uses an alternative path to eliminates the use of <br>
+corrosive/unfriendly chemical component such as sodium hydroxide and formalin. The existing liquid wash in the market contains <br>
+corrosive and unfriendly chemicals as major raw materials, on application to fabrics, cars and kitchen wares fades the color and <br>
+quality with time.</p><br>
+<br>
+
+
+<h2 align="center">OUR MISSION FOR THE SOAP MAKING BUSINESS PLAN IN NIGERIA</h2>
+
+<p>To exceed the customers’ expectations by providing quality product and exceptional customer care services <br>
+in a loving and caring way.
+Also with this aim of ours we want to show the people that they can also trust local products <br>
+We want to be major producers of liquid soap in Africa, if the need of our customer are met and we gain much profit, <br>
+we would move into solid soaps<br>
+<br>
+
+<h2 align="center">OUR VISION FOR THE SOAP MAKING BUSINESS PLAN IN NIGERIA</h2>
+
+To provide exceptional Soap Making outfits at affordable cost
+</div>
+</div>
+</div>
+
+<div class="footer">
+            <h2>About</h2>
+           This is Marymo store website developed by BAMMYSOFT TECHNOLOGY
+            <br>
+           <marquee behavior="slide" direction="left"> <h4>for more information contact-BAMMYSOFT TECHNOLOGY &nbsp
+            
+            Mobile nunber-09035919948</h4></marquee>
+        </div>
+    </body>
+</html>
